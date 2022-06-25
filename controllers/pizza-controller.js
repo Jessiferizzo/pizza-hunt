@@ -24,7 +24,11 @@ const pizzaController = {
   // createPizza
   createPizza({ body }, res) {
     Pizza.create(body)
-      .then(dbPizzaData => res.json(dbPizzaData))
+      .then(dbPizzaData => {
+        console.log("*************");
+        console.log(dbPizzaData);
+        return res.json(dbPizzaData)
+    })
       .catch(err => res.json(err));
   },
 
