@@ -17,7 +17,7 @@
   
   Deployed Heroku Website:
 
-  [https://pizza-hunt-allpizzas.herokuapp.com/](https://github.com/Jessiferizzo/pizza-hunt.git)
+  [https://pizza-hunt-allpizzas.herokuapp.com/](https://pizza-hunt-allpizzas.herokuapp.com/)
 
 
   ## Built With:
